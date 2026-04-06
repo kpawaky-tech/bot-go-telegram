@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Go workspace
+bin/
+pkg/
+
+# Environment files
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config (не коммить токены!)
+config/local.yaml
